@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="css/vih.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script langage="Javascript" type="text/javascript" src="../script/jquery-3.6.0.min.js">
+	</script>
+	<script langage="Javascript" type="text/javascript" src="script/enigme1.js">
+	</script>
+</head>
+
+<body>
+	<header>
+    <img src="images/logo_fbs.png" id="logo_fbs">
+	</header>
+	        
+  <div id="separation"></div>     
+  <section class="presentation1">
+    <div class="container">
+      <h2> Bienvenue dans la première salle d'auscultation ! </h2>
+      <p> Nous venons d'examiner un patient. Toutefois, notre stagiaire a perdu le thermomètre. Aide-nous à le retrouver...
+      </p>
+      <p> Quelle est la température du patient ? </p>
+      <input type="text" id="temp" placeholder="Valeur"/>
+      <input onclick="temperature()" type="button" value="Valider"> 
+      <div id="apres">
+        <p>Ah oui, c'est beaucoup mieux comme ça.. Quoiqu'il a quand même une température très élevée...</p>
+        <a href="devinette.html">Suite</a>
+      </div>
+    </div>
+  </section>
+  <section class="premiere-enigme">
+    <div class="container">
+      <div>
+          <a onClick="thermometre()" class="thermometre">
+            <img src="images/enigme1/therm.png" id="term_e1" onclick="PopupImage(1,'images/enigme1/ecran_therm.png')"/>
+            <img src="images/enigme1/calc.ico" id="calc_e1" onclick="PopupImage(2,'images/enigme1/equation.jpeg')"/>
+            <img src="images/enigme1/element.jpg" id="elem_e1" onclick="PopupImage(3,'images/enigme1/element.jpg')"/>
+            <img src="images/enigme1/dossier.png" id="dos_e1" onclick="PopupImage(3,'images/enigme1/medical.jpg')"/>
+            <img src="images/enigme1/tableau.jpeg" id="tab_e1" onclick="aide()"/>
+          </a>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+      <div class="container justify-content-center align-items-center">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+</body>
+
+</html>

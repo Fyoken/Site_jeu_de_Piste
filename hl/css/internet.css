@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+p span {
+  color: rgb(0,128,0);
+}
+
+a#lien {
+  color: #fff;
+}
+
+.centre {
+  text-align: center;
+}
+
+img#Tony {
+  width: 250px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-top: 9.5%;
+}

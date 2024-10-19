@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="jeu_puzzle">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="css/vih.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<script langage="Javascript" type="text/javascript" src="../script/jquery-3.6.0.min.js">
+	</script>
+	<script langage="Javascript" type="text/javascript" src="script/fbh.js">
+	</script>
+</head>
+
+<body>
+
+	<header>
+    <img src="images/logo_fbs.png" id="logo_fbs">
+	</header>
+	
+    <div>
+      <canvas id="display" width="500" height="500"></canvas>
+      <div id="menu">
+        <div id="content">
+          <img src="images/puzzle/1.jpg" id="1" width="0" height="0">
+          <img src="images/puzzle/2.jpg" id="2" width="0" height="0">
+          <img src="images/puzzle/3.jpg" id="3" width="0" height="0">
+          <img src="images/puzzle/4.jpg" id="4" width="0" height="0">
+          <img src="images/puzzle/5.jpg" id="5" width="0" height="0">
+          <img src="images/puzzle/6.jpg" id="6" width="0" height="0">
+          <img src="images/puzzle/7.jpg" id="7" width="0" height="0">
+          <img src="images/puzzle/8.jpg" id="8" width="0" height="0">
+          
+           
+          <p id="victoire">Bravo tu as reconstitué l'image ! La réponse est : plaque rouge</p>
+          
+         <p class="tab_sol">
+           <img class="tab_sol" src="images/puzzle/tableau.jpeg"  onclick="aide()"/>
+          Essayez de placer les blocs dans l'ordre croissant : de gauche à droite, de haut en bas. Cliquez sur n'importe quel bloc à côté de l'espace pour les échanger.</p>
+          <p> Le but est de retrouver le symptôme du patient.</p>
+          <p> Tu l'as trouvé sans reconstituer le puzzle ? Indique le ici !</p>
+          <input type="text" id="plaque" placeholder="Symptôme du patient"/>
+          <input onclick="plaque_rouge()" type="button" value="Valider"> 
+          <a id="lienwin" style="display:none" href="patient.html">Enigme suivante</a>
+          <br><br>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="script/puzzle.js"></script>
+
+    <footer>
+      <div class="container">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+</body>
+
+</html>

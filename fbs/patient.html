@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="css/vih.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<script langage="Javascript" type="text/javascript" src="../script/jquery-3.6.0.min.js">
+	</script>
+	<script langage="Javascript" type="text/javascript" src="script/enigme5.js">
+	</script>
+</head>
+
+<body>
+	<header>
+    <img src="images/logo_fbs.png" id="logo_fbs">
+	</header>
+
+    <section class="presentation5">
+      <div class="container">
+        <h2></h2>
+        <p> Encore un nouveau patient... aide-nous vite à trouver ce qu'il a !
+        </p>
+        <p>Tu as trouvé ? Alors ne perds pas de temps, écris-le ! </p>
+        <input type="text" id="toux" placeholder="Symptome"/>
+        <input onclick="toux()" type="button" value="Valider"> 
+        <div id="apres">
+          <p>Ah oui, c'est bien ce qu'il me semblait... il faut qu'il se repose !</p>
+          <a href="journal.html">Suite</a>
+        </div>
+      </div>
+    </section>
+    <section class="cinquieme-enigme">
+      <div class="container">
+
+            <audio autoplay loop src="son/toux.mp3"></audio>
+
+            <img src="images/enigme5/dossier_med.png" id="dos_e2" onclick="PopupImage(3,'images/enigme1/medical.jpg')"/>
+            <img src="images/enigme5/question.jpg" id="q_e2" onclick="aide()"/>
+            
+          
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+</body>
+
+</html>

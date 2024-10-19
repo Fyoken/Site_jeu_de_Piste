@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="css/vih.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<script langage="Javascript" type="text/javascript" src="../script/jquery-3.6.0.min.js">
+	</script>
+	<script langage="Javascript" type="text/javascript" src="script/enigme3.js">
+	</script>
+</head>
+
+<body>
+	<header>
+    <img src="images/logo_fbs.png" id="logo_fbs">
+	</header>
+  
+	  <section class="presentation3">
+      <div class="container">
+        <p> De quoi souffre le patient ? </p>
+        <input type="text" id="sympt" placeholder="Symptôme"/>
+        <input onclick="symptome()" type="button" value="Valider"> 
+        <div id="apres">
+          <p>Oh nan, le pauvre... j'espère que les médicaments lui auront été efficaces...</p>
+          <a href="puzzlefbs.html">Suite</a>
+        </div>
+      </div>
+    </section>
+  
+    <section class="troisieme-enigme">
+      <div class="container">
+        
+        <img src="images/enigme3/med1.png" id="med1_e3" onclick="PopupImage(1,'images/enigme3/med1.png')"/>
+        <img src="images/enigme3/med2.png" id="med2_e3" onclick="PopupImage(2,'images/enigme3/med2.png')"/>
+        <img src="images/enigme3/med3.png" id="med3_e3" onclick="PopupImage(3,'images/enigme3/med3.png')"/>
+        <img src="images/question.jpg" id="q_e3" onclick="PopupImage(4,'images/enigme3/notice.jpg')"/>
+            
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+</body>
+
+</html>

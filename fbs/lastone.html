@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="css/vih.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet"> 
+	<script langage="Javascript" type="text/javascript" src="../script/jquery-3.6.0.min.js">
+	</script>
+	<script langage="Javascript" type="text/javascript" src="script/fin.js">
+	</script>
+</head>
+
+<body>
+	<header>
+    <img src="images/logo_fbs.png" id="logo_fbs">
+	</header>
+	
+    <section class="page_fin">
+      <div class="container">
+        <div class="row" id="avant">
+          <div class="col-md-6 page_carnet">
+            <h3>Ah ! Vous avez réussi à tout récupérer ?</h3>
+            <p>Super, grâce à vous on va peut être pouvoir retrouver ce sur quoi travaillait Françoise Barré-Sinoussi.</p>
+            <p>Grâce à toute vos recherches, on a pu récolter les informations suivantes :</p>
+
+            <p>Le patient avait tous les symptômes suivant :</p>
+            <ul>
+              <li>température élevée</li>
+              <li>toux</li>
+              <li>maux de têtes, de ventre, et des douleurs musculaires</li>
+              <li>éruption de plaques rouges</li>
+              <li>ganglions</li>
+              <li>diarrhés et vomissement</li>
+            </ul>
+
+            <p>Maintenant, il ne nous reste plus qu'à trouver de quoi souffait ce dernier.. Mais nous n'en avons aucune idée !</p>
+            <p>Nous avons encore besoin de vous. Pourriez-vous nous aider à retrouver ce qu'il avait ?
+            N'hésitez pas à aller voir sur internet si jamais on peut retrouver une quelconque information...</p>
+            <div id="reponse">
+              <input type="textarea" id="reponse_user" placeholder="Maladie"/>
+              <p class="text"> <input onclick="reponse()" id="valider" type="button" value="valider"> </p>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="apres">
+          <div class="col-md-6 page_carnet" id="resultat">
+            Oui c'était effectivement ça ! Françoise Barré-Sinoussi a découvert le virus de l'immunodéficience humaine à l'origine du sida.<br />
+            <br />
+            Elle s'est impliquée dans la recherche sur les rétrovirus dans les années 1970. C'est en partie elle qui a contribuée à la recherche sur le VIH/sida, notamment lors de l'identification d'un nouveau rétrovirus en 1983, qui sera nommé plus tard VIH.<br />
+            <br />
+            Dès 1988, elle prend la tête d'un laboratoire, et initie les travaux sur tout ce qui touche à la pathogénèse du VIH, puis s'implique dans des programmes de recherche d'un vaccin. Autrement dit, elle étudie les processus par lequel une cause agit sur l'organisme en provoquant une maladie. <br />
+            <br />
+            Françoise Barré-Sinoussi s'implique également dans les pays aux ressources limitées, en particulier à travers le Réseau International des Instituts Pasteur et la coordination des programmes de recherche de l'ANRS au Cambodge et au Vietnam.<br />
+            <br />
+            En 2009, elle est élue membre de l'Académie des sciences, puis en 2012, elle devient la présidente de la Société internationale du sida. Elle est élevée au rang de Grand Officier de la Légion d'honneur en 2013.<br />
+            <br />
+            Elle a reçu plus de 10 distinctions internationales tout au long de sa carrière, notamment le prix Nobel de physiologie ou médecine, conjointement avec le Professeur Luc Montagnier. Elle possède également le titre de docteur Honoris Causa de nombreuses universités. Elle a posté plus de 260 publications originales dans des journaux scientifiques internationaux, plus de 120 revues dans des livres, et plus de 250 communications lors de congrès internationaux.
+          </div>
+          <div class="col-md-6 page_carnet" id="resultat">
+            <img src="images/derniere_question/FBS_fin.jpg" />
+
+            <a href="../index.html" class="bouton_fin">Retour à l'accueil</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+</body>
+
+</html>
+

@@ -1,0 +1,92 @@
+/* En-tête du journal*/
+#journal{
+  display: inline;
+  text-align: center;
+}
+
+#imgJournal{
+  width: 50px;
+  heigh: auto;
+}
+
+#nomJournal{
+  color: #efda6c;
+  font-size: 30px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.menu {
+  padding: 0;
+  justify-content: space-around;
+  display: flex;
+}
+
+.menu li {
+  margin: 0;
+}
+
+/* Menu */
+nav{
+  text-align: center;
+}
+
+li{
+  display: inline;
+  margin-left: 50px;
+}
+
+/* Traits */
+#grosTrait{
+  border-top: 4px solid darkblue;
+  width : 100%;
+}
+
+#trait{
+  border-top: 4px solid darkblue;
+  width : 70px; 
+}
+
+/* Corps de l'article */
+#pub{
+  display: grid;
+}
+
+.pub{
+  background-color : white;
+  margin-bottom : 9px;
+  border : 1px solid black;
+  text-align : center;
+}
+
+#gris{
+  color: gray;
+}
+
+#article{
+  padding-right: 120px;
+  font-size: 20px;
+}
+
+img {
+	width: 150px;
+	height: auto;
+}
+
+a#lien {
+  color: #212529;
+}
+
+a#lien:hover {
+  text-decoration: none;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding-top: 50px;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang='fr'>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Hedy Lamarr-Enigme2</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+	<script src="script/enigme2.js" type=text/javascript>
+
+	</script>
+	<link href="css/enigme2.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div class="grille">
+    <div>
+  		<p id="message" style="font-family: 'Yanone Kaffeesatz', sans-serif;font-size:30px;">
+  			Tony : Mais ? Que se passe-t-il ? Pourquoi sommes nous sur un blog des années 2000 ? On dirait que internet déraille totalement... Ça ressemble à une énigme, il faut la résoudre pour avancer. Mes pattes sont trop petites, je ne peux pas écrire la réponse moi-même... Vous pouvez m'aider ?
+  		</p>
+    </div>
+    <div>
+    <img id="Tony" src="images/Tony.png" width="150px" style="float:right;margin-right: 0px;" onclick="help()"/>
+    </div>
+  </div>
+  <br>
+
+  <div class="grille2">
+    <div id="blog">
+      <h2 id="titre">Blog</h2>
+      <div id="texte">
+      <p style="text-align:center; padding-bottom: 0px;">
+        Blog de TonyDu64
+      </p>
+        <br>
+      <center><img id="Tony2" src="images/Tony&co.jpg" width="100px"/></center>
+        <br>
+        <br>
+      <center>
+        Ajouter aux amis
+        <br><br>
+        Bloquer
+        <br><br>
+        Recommander
+      </center>
+      </div>
+    </div>
+    
+  	<div id="post">
+      <div style="background: linear-gradient(to right, red, orange); border-radius: 8px;">
+        <span>
+          Post de ^ù$*¤ù*µ£%
+        </span>
+      </div>
+      <br>
+      <br>
+  		<h2>Mon premier recouvre le corps.</h2>
+      <h2>Dans la gare, on marche sur mon second.</h2>
+      <h2>On a besoin de mon troisième pour faire des phrases.</h2>
+      <h2>On fait mon quatrième pour attacher deux cordes ou deux lacets.</h2>
+      <h2>Mon tout est un jeu vidéo, un dessin animé très connu et un jeu de cartes à collectionner.</h2> 
+      <h2>
+  			<input type="textarea" id="charade" placeholder="Qui suis-je ?"/>
+      </h2>
+      <p> <input onclick="chara()" id="valider" type="button" value="Valider"> </p>
+  	</div>
+
+    <div id="pub">
+      <h2 id="titre">Infos</h2>
+       <div id="texte">
+        <p style="text-align:center; padding-bottom: 0px;">
+          La tecktonik
+        </p>
+          <br>
+        <center><img id="Tony2" src="images/tecktonik.jpg" width="100px"/></center>
+          <br>
+          <br>
+         <center>
+          <p>
+            La tecktonik, ce phénomène <br/> connu des jeunes s'empare <br/> de toute la France.
+          </p>
+         </center>
+      </div>
+    </div>
+  </div>
+
+  <center>
+  <footer>
+      <div class="container">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+  </center>
+  <script>document.getElementById("Tony").style.cursor="pointer";</script>
+</body>
+
+</html>

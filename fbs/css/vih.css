@@ -1,0 +1,416 @@
+/******************
+**
+**
+BASE TOUTE PAGE FBS
+**
+**
+******************/
+header {
+  text-align: center;
+}
+
+header #logo_fbs {
+  margin: 20px 0;
+  width: 200px;
+}
+
+header ul.nav {
+  width: 100%;
+  height: 50px;
+}
+
+header ul li.cache {
+  display: none;
+}
+
+section.cache {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  height: 80px;
+  padding-top: 20px;
+}
+
+/******************
+**
+**
+ENIGME 1
+**
+**
+******************/
+
+section.premiere-enigme {
+  min-height: 85vh;
+  background-image: url("../images/enigme1/chambre.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#separation {
+  border-top: 4px solid darkblue;
+  width : 100%;
+}
+
+section.presentation1 h2 {
+    margin-left: 30%;
+}
+
+section.presentation1 #apres {
+  display: none;
+}
+
+section.presentation1 #apres p {
+  margin-bottom: 0;
+}
+  
+section.premiere-enigme #term_e1 {
+  height: 30px;
+  float:left;
+  margin-left:272px;
+  margin-top:10px;
+}
+
+section.premiere-enigme #calc_e1 {
+  height: 16px;
+  float: left;
+  margin-left: 233px;
+  margin-top: 117px;
+}
+
+section.premiere-enigme #elem_e1 {
+  height: 50px;
+  float: left;
+  margin-left: -660px;
+  margin-top: 100px;
+}
+
+section.premiere-enigme #dos_e1 {
+  height: 50px;
+  float: left;
+  margin-left: 422px;
+  margin-top: 470px;
+}
+
+section.premiere-enigme #tab_e1 {
+  height: 40px;
+  float: left;
+  margin-left: -1200px;
+  margin-top: 380px;
+}
+
+
+/******************
+**
+**
+ENIGME 2
+**
+**
+******************/
+section.deuxieme-enigme img.img_g {
+  width: 500px;
+}
+
+section.deuxieme-enigme #apres {
+  display: none;
+}
+  
+  
+/******************
+**
+**
+ENIGME 3
+**
+**
+******************/
+
+section.troisieme-enigme {
+  min-height: 85vh;
+  background-image: url("../images/enigme3/chambre_hop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section.troisieme-enigme #med1_e3 {
+  width: 40px;
+  position: absolute;
+  margin-left:190px;
+  margin-top:290px;
+}
+  
+section.troisieme-enigme #med2_e3 {
+  width: 30px;
+  position: absolute;
+  margin-left:500px;
+  margin-top:385px;
+}
+  
+section.troisieme-enigme #med3_e3 {
+  width: 20px;
+  position: absolute;
+  margin-left:1140px;
+  margin-top:200px;
+}
+
+section.troisieme-enigme #q_e3 {
+  width: 30px;
+  position: absolute;
+  margin-left:350px;
+  margin-top:100px;
+}
+
+section.presentation3 #apres {
+  display: none;
+}
+
+section.presentation3 #apres p {
+  margin-bottom: 0;
+}
+
+/******************
+**
+**
+ENIGME 4
+**
+**
+******************/
+
+section.quatrieme-enigme {
+  min-height: 85vh;
+  background-image: url("../images/enigme4/salle.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section.quatrieme-enigme #term_p {
+  height: 10px;
+  float:left;
+  margin-left:1280px;
+  margin-top:300px;
+  pointer-events: auto;
+}
+
+section.quatrieme-enigme #term_u {
+  height: 15px;
+  float:left;
+  margin-left:800px;
+  margin-top:-245px;
+  pointer-events: auto;
+}
+
+section.quatrieme-enigme #term_z1 {
+  height: 10px;
+  float:left;
+  margin-left:1400px;
+  margin-top:10px;
+  pointer-events: auto;
+}
+
+section.quatrieme-enigme #term_z2 {
+  height: 15px;
+  float:left;
+  margin-left:260px;
+  margin-top:190px;
+  pointer-events: auto;
+}
+
+section.quatrieme-enigme #term_l {
+  height: 25px;
+  float:left;
+  margin-left:-270px;
+  margin-top:-200px;
+  pointer-events: auto;
+}
+
+section.quatrieme-enigme #term_e {
+  height: 15px;
+  float:left;
+  margin-left:600px;
+  margin-top:-220px;
+  pointer-events: auto;
+}
+  
+center.cache {
+  display: none;
+}
+
+#puzzle {
+  margin-left: 700px;
+  display: none;
+}
+
+/******************
+**
+**
+PUZZLE
+**
+**
+******************/
+
+.jeu_puzzle {
+  height: 100%;
+  display: grid;
+}
+
+.jeu_puzzle body {
+  margin: 0 auto;
+  font-family: Georgia;
+}
+
+#menu {
+  display: grid;
+  font-size: 15pt;
+  float: left;
+  width: 500px;
+  height: 500px;
+  margin-right: 0px;
+  box-sizing: border-box;
+}
+
+#menu p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#content {
+  margin: auto;
+  width: 450px;
+}
+
+#victoire {
+  color: red;
+  display: none;
+}
+
+img.tab_sol {
+  float:left; 
+  margin: 0 15px 0 0;
+  height: 50px;
+}
+
+p.tab_sol {
+  text-align: left;
+  margin-top: -2px;
+}
+
+/******************
+**
+**
+ENIGME 5
+**
+**
+******************/
+
+section.presentation5 #apres {
+  display: none;
+}
+  
+section.cinquieme-enigme {
+  min-height: 85vh;
+  background-image: url("../images/enigme5/salle_examen.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section.cinquieme-enigme #q_e2 {
+  width: 30px;
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+section.cinquieme-enigme #dos_e2 {
+  width: 30px;
+  position: absolute;
+  right: 490px;
+  top: 370px;
+}
+
+/******************
+**
+**
+ENIGME 6
+**
+**
+******************/
+
+section.sixieme-enigme img {
+  min-height: 85vh;
+  margin-left: 100px;
+  position: relative;
+}
+
+section.presentation6 #apres {
+  display: none;
+}
+
+section.presentation6 #apres p {
+  margin-bottom: 0;
+}
+
+/******************
+**
+**
+QUESTION FIN
+**
+**
+******************/
+section.page_fin {
+  font-family: "Kalam";
+  background-image: url("../images/derniere_question/fond_carnet.png");
+  background-size: contain;
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.page_fin .page_carnet {
+  margin-top: 100px;
+}
+
+section.page_fin .page_carnet:first-child {
+  padding-right: 50px;
+}
+  
+section.page_fin h3 {
+  font-weight: 800;
+}
+
+section.page_fin .page_carnet .question {
+  text-align: center;
+}
+  
+section.page_fin .page_carnet .question input {
+  margin-bottom: 10px;
+}
+
+section.page_fin #apres {
+  display: none;
+}
+
+section.page_fin #apres .page_carnet:first-child {
+  padding-right: 50px;
+}
+
+section.page_fin #apres .page_carnet:last-child {
+  padding-left: 60px;
+}  
+
+/******************
+**
+**
+PAGE FINALE
+**
+**
+******************/
+section.page_fin #apres .page_carnet img{
+  width: 500px;
+  margin-right: 0;
+}
+
+  section.page_fin #apres .page_carnet:last-child {
+    text-align: center;
+  }

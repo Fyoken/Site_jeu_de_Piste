@@ -1,0 +1,57 @@
+header {
+  display: flex;
+}
+
+header .nom_site {
+  text-align: center;
+}
+
+header .nom_site h1 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+header #logocy {
+  width: 150px;
+  position: absolute;
+  top: 5px;
+  right: 140px;
+}
+
+main {
+  background-color: #AAA;
+  text-align: center;
+  min-height: 750px;
+}
+
+main a h2 {
+  color: #000;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+main a img {
+  transform: scale(0.7);
+  margin: -30px 0 0 0;
+  transition: transform 1s, margin 1s;
+}
+
+main a:hover, main a:hover p {
+  text-decoration: none;
+}
+
+main a:hover img {
+  transform: scale(0.8);
+  margin: -30px 0 0 -5px;
+  transition: transform 1s, margin 1s;
+}
+
+main a p {
+  font-size: 18px;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+}

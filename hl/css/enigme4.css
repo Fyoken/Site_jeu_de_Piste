@@ -1,0 +1,58 @@
+body {
+  background-image: url('../images/bug.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.centre {
+  text-align: center;
+}
+
+#tony {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 150px;
+}
+
+/* Grille pour Tony */
+.grille {
+  position: relative;
+  grid-template-columns: repeat(2, auto);
+}
+
+
+.text {
+  line-height: 30px;
+  color:white;
+  text-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
+}
+
+.special {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size:30px;
+}
+
+.text2 {
+  line-height: 30px;
+  color:aqua;
+  text-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
+  display:none;
+  font-size: 20px;
+}
+
+#lettre {
+  font-size: 50px; 
+  text-decoration: underline; 
+  color : red;
+  text-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
+  color:white;
+  text-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
+}

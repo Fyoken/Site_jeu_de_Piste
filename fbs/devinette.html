@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="css/vih.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<script langage="Javascript" type="text/javascript" src="../script/jquery-3.6.0.min.js">
+	</script>
+	<script langage="Javascript" type="text/javascript" src="script/enigme2.js">
+	</script>
+</head>
+
+<body>
+	<header>
+    <img src="images/logo_fbs.png" id="logo_fbs">
+	</header>
+	
+    <section class="deuxieme-enigme">
+      <div class="container">
+        <h2>On a réussi à retrouver un bout de notes ! C'était accompagné d'une radio.. Regardez donc ça avec nous, peut-être que vous parviendrez à comprendre mieux que nous.</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img class="img_g" src="images/enigme2/notes_fbh.png" />
+          </div>
+          <div class="col-md-6">
+            <img class="img_g" src="images/enigme2/ganglions.jpg" />
+          </div>
+        </div>
+        <p>Et aussi, on a trouvé une devinette à côté. Aucune idée de comment elle est arrivée là...</p>
+        <p class="devinette">Mon premier se met sur les mains quand on a froid</p>
+        <p class="devinette">Mon deuxième est la première personne du verbe avoir au présent et également une lettre de l'alphabet</p>
+        <p class="devinette">Mon troisième est le roi de la savane</p>
+        <p class="devinette">Mon tout est une cavité où se rencontrent plusieurs vaisseaux lymphatiques.</p>
+        <input type="text" id="gangl" placeholder="Réponse"/>
+        <input onclick="reponse()" type="button" value="Valider">
+        <div id="apres">
+          <p>Ah oui ! C'était ça, merci !</p><br />
+          <a href="medicaments.html">Suite</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <h6>
+          Création et crédit<br>
+          AUZOLLES Mélina, BARBOSA Mathias, CHAMBAS Mathilde, FIGUEIRA Alexis
+      </div>
+    </footer>
+</body>
+
+</html>
